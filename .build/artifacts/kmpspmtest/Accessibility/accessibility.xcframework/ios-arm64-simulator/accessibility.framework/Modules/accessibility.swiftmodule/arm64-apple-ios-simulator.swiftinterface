@@ -1,0 +1,268 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -module-name accessibility
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import accessibility
+public enum Skie {
+  public enum Accessibility {
+    public enum AccessibilityId {
+      public enum Authentication {
+      }
+      public enum PinPadEntry {
+      }
+      public enum NumberPadEntry {
+      }
+      public enum PaymentTaker {
+      }
+      public enum GuestInfo {
+      }
+      public enum PosTemplateSelection {
+      }
+      public enum VenueSelection {
+      }
+      public enum Button {
+        public enum MoreKabob {
+        }
+      }
+      public enum OrderTaking {
+        public enum MenuSideBar {
+        }
+      }
+      public enum ReceiptContents {
+      }
+      public enum ManagerPin {
+      }
+    }
+  }
+  public typealias com_cfa_accessibility__accessibility = accessibility.Skie.Accessibility
+}
+extension accessibility.Skie.Accessibility.AccessibilityId.Authentication {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case failedSignInLabel(accessibility.AccessibilityIdAuthenticationFailedSignInLabel)
+    case pinPad(accessibility.AccessibilityIdAuthenticationPinPad)
+    case pleaseSignInLabel(accessibility.AccessibilityIdAuthenticationPleaseSignInLabel)
+    case numberPad(accessibility.AccessibilityIdPaymentTakerNumberPad)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: accessibility.Skie.Accessibility.AccessibilityId.Authentication.__Sealed, b: accessibility.Skie.Accessibility.AccessibilityId.Authentication.__Sealed) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> accessibility.Skie.Accessibility.AccessibilityId.Authentication.__Sealed where __Sealed : accessibility.AccessibilityIdAuthentication
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> accessibility.Skie.Accessibility.AccessibilityId.Authentication.__Sealed? where __Sealed : accessibility.AccessibilityIdAuthentication
+extension accessibility.Skie.Accessibility.AccessibilityId.PinPadEntry {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case delete(accessibility.AccessibilityIdPinPadEntryDelete)
+    case key(accessibility.AccessibilityIdPinPadEntryKey)
+    case signIn(accessibility.AccessibilityIdPinPadEntrySignIn)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: accessibility.Skie.Accessibility.AccessibilityId.PinPadEntry.__Sealed, b: accessibility.Skie.Accessibility.AccessibilityId.PinPadEntry.__Sealed) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> accessibility.Skie.Accessibility.AccessibilityId.PinPadEntry.__Sealed where __Sealed : accessibility.AccessibilityIdPinPadEntry
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> accessibility.Skie.Accessibility.AccessibilityId.PinPadEntry.__Sealed? where __Sealed : accessibility.AccessibilityIdPinPadEntry
+extension accessibility.Skie.Accessibility.AccessibilityId.NumberPadEntry {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case delete(accessibility.AccessibilityIdNumberPadEntryDelete)
+    case key(accessibility.AccessibilityIdNumberPadEntryKey)
+    case signIn(accessibility.AccessibilityIdNumberPadEntrySignIn)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: accessibility.Skie.Accessibility.AccessibilityId.NumberPadEntry.__Sealed, b: accessibility.Skie.Accessibility.AccessibilityId.NumberPadEntry.__Sealed) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> accessibility.Skie.Accessibility.AccessibilityId.NumberPadEntry.__Sealed where __Sealed : accessibility.AccessibilityIdNumberPadEntry
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> accessibility.Skie.Accessibility.AccessibilityId.NumberPadEntry.__Sealed? where __Sealed : accessibility.AccessibilityIdNumberPadEntry
+extension accessibility.Skie.Accessibility.AccessibilityId.PaymentTaker {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: accessibility.Skie.Accessibility.AccessibilityId.PaymentTaker.__Sealed, b: accessibility.Skie.Accessibility.AccessibilityId.PaymentTaker.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> accessibility.Skie.Accessibility.AccessibilityId.PaymentTaker.__Sealed where __Sealed : accessibility.AccessibilityIdPaymentTaker
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> accessibility.Skie.Accessibility.AccessibilityId.PaymentTaker.__Sealed? where __Sealed : accessibility.AccessibilityIdPaymentTaker
+extension accessibility.Skie.Accessibility.AccessibilityId.GuestInfo {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case `else`
+    public static func == (a: accessibility.Skie.Accessibility.AccessibilityId.GuestInfo.__Sealed, b: accessibility.Skie.Accessibility.AccessibilityId.GuestInfo.__Sealed) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> accessibility.Skie.Accessibility.AccessibilityId.GuestInfo.__Sealed where __Sealed : accessibility.AccessibilityIdGuestInfo
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> accessibility.Skie.Accessibility.AccessibilityId.GuestInfo.__Sealed? where __Sealed : accessibility.AccessibilityIdGuestInfo
+extension accessibility.Skie.Accessibility.AccessibilityId.PosTemplateSelection {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case cateringDelivery(accessibility.AccessibilityIdPosTemplateSelectionCateringDelivery)
+    case cateringPickup(accessibility.AccessibilityIdPosTemplateSelectionCateringPickup)
+    case cfaDelivery(accessibility.AccessibilityIdPosTemplateSelectionCfaDelivery)
+    case curbside(accessibility.AccessibilityIdPosTemplateSelectionCurbside)
+    case dineInCarryOut(accessibility.AccessibilityIdPosTemplateSelectionDineInCarryOut)
+    case driveThru(accessibility.AccessibilityIdPosTemplateSelectionDriveThru)
+    case foodTruck(accessibility.AccessibilityIdPosTemplateSelectionFoodTruck)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: accessibility.Skie.Accessibility.AccessibilityId.PosTemplateSelection.__Sealed, b: accessibility.Skie.Accessibility.AccessibilityId.PosTemplateSelection.__Sealed) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> accessibility.Skie.Accessibility.AccessibilityId.PosTemplateSelection.__Sealed where __Sealed : accessibility.AccessibilityIdPosTemplateSelection
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> accessibility.Skie.Accessibility.AccessibilityId.PosTemplateSelection.__Sealed? where __Sealed : accessibility.AccessibilityIdPosTemplateSelection
+extension accessibility.Skie.Accessibility.AccessibilityId.VenueSelection {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case cateringDelivery(accessibility.AccessibilityIdPosTemplateSelectionCateringDelivery)
+    case cateringPickup(accessibility.AccessibilityIdPosTemplateSelectionCateringPickup)
+    case cfaDelivery(accessibility.AccessibilityIdPosTemplateSelectionCfaDelivery)
+    case curbside(accessibility.AccessibilityIdPosTemplateSelectionCurbside)
+    case dineInCarryOut(accessibility.AccessibilityIdPosTemplateSelectionDineInCarryOut)
+    case driveThru(accessibility.AccessibilityIdPosTemplateSelectionDriveThru)
+    case foodTruck(accessibility.AccessibilityIdPosTemplateSelectionFoodTruck)
+    case changeVenue(accessibility.AccessibilityIdVenueSelectionChangeVenue)
+    case titleLabel(accessibility.AccessibilityIdVenueSelectionTitleLabel)
+    case venueItemRow(accessibility.AccessibilityIdVenueSelectionVenueItemRow)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: accessibility.Skie.Accessibility.AccessibilityId.VenueSelection.__Sealed, b: accessibility.Skie.Accessibility.AccessibilityId.VenueSelection.__Sealed) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> accessibility.Skie.Accessibility.AccessibilityId.VenueSelection.__Sealed where __Sealed : accessibility.AccessibilityIdVenueSelection
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> accessibility.Skie.Accessibility.AccessibilityId.VenueSelection.__Sealed? where __Sealed : accessibility.AccessibilityIdVenueSelection
+extension accessibility.Skie.Accessibility.AccessibilityId.Button {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case changeVenue(accessibility.AccessibilityIdButtonChangeVenue)
+    case decrement(accessibility.AccessibilityIdButtonDecrement)
+    case increment(accessibility.AccessibilityIdButtonIncrement)
+    case next(accessibility.AccessibilityIdButtonNext)
+    case quantitySelector(accessibility.AccessibilityIdButtonQuantitySelector)
+    case signOut(accessibility.AccessibilityIdButtonSignOut)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: accessibility.Skie.Accessibility.AccessibilityId.Button.__Sealed, b: accessibility.Skie.Accessibility.AccessibilityId.Button.__Sealed) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> accessibility.Skie.Accessibility.AccessibilityId.Button.__Sealed where __Sealed : accessibility.AccessibilityIdButton
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> accessibility.Skie.Accessibility.AccessibilityId.Button.__Sealed? where __Sealed : accessibility.AccessibilityIdButton
+extension accessibility.Skie.Accessibility.AccessibilityId.Button.MoreKabob {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case fulfillmentMethod(accessibility.AccessibilityIdButtonMoreKabobFulfillmentMethod)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: accessibility.Skie.Accessibility.AccessibilityId.Button.MoreKabob.__Sealed, b: accessibility.Skie.Accessibility.AccessibilityId.Button.MoreKabob.__Sealed) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> accessibility.Skie.Accessibility.AccessibilityId.Button.MoreKabob.__Sealed where __Sealed : accessibility.AccessibilityIdButtonMoreKabob
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> accessibility.Skie.Accessibility.AccessibilityId.Button.MoreKabob.__Sealed? where __Sealed : accessibility.AccessibilityIdButtonMoreKabob
+extension accessibility.Skie.Accessibility.AccessibilityId.OrderTaking {
+  @frozen public enum __Sealed {
+    case appSetupButton(accessibility.AccessibilityIdOrderTakingAppSetupButton)
+    case emptyStateTitle(accessibility.AccessibilityIdOrderTakingEmptyStateTitle)
+    case menuItem(accessibility.AccessibilityIdOrderTakingMenuItem)
+    case menuSideBar(any accessibility.AccessibilityIdOrderTakingMenuSideBar)
+    case settingsButton(accessibility.AccessibilityIdOrderTakingSettingsButton)
+    case toggleSideBar(accessibility.AccessibilityIdOrderTakingToggleSideBar)
+    case venueLabel(accessibility.AccessibilityIdOrderTakingVenueLabel)
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> accessibility.Skie.Accessibility.AccessibilityId.OrderTaking.__Sealed where __Sealed : accessibility.AccessibilityIdOrderTaking
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> accessibility.Skie.Accessibility.AccessibilityId.OrderTaking.__Sealed? where __Sealed : accessibility.AccessibilityIdOrderTaking
+extension accessibility.Skie.Accessibility.AccessibilityId.OrderTaking.MenuSideBar {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case beveragesButton(accessibility.AccessibilityIdOrderTakingMenuSideBarBeveragesButton)
+    case beveragesLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarBeveragesLabel)
+    case breakfastButton(accessibility.AccessibilityIdOrderTakingMenuSideBarBreakfastButton)
+    case breakfastLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarBreakfastLabel)
+    case bunsButton(accessibility.AccessibilityIdOrderTakingMenuSideBarBunsButton)
+    case bunsLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarBunsLabel)
+    case condimentsButton(accessibility.AccessibilityIdOrderTakingMenuSideBarCondimentsButton)
+    case condimentsLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarCondimentsLabel)
+    case cutleryButton(accessibility.AccessibilityIdOrderTakingMenuSideBarCutleryButton)
+    case cutleryLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarCutleryLabel)
+    case deliveryButton(accessibility.AccessibilityIdOrderTakingMenuSideBarDeliveryButton)
+    case deliveryLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarDeliveryLabel)
+    case entreesButton(accessibility.AccessibilityIdOrderTakingMenuSideBarEntreesButton)
+    case entreesLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarEntreesLabel)
+    case kidsMealsButton(accessibility.AccessibilityIdOrderTakingMenuSideBarKidsMealsButton)
+    case kidsMealsLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarKidsMealsLabel)
+    case localButton(accessibility.AccessibilityIdOrderTakingMenuSideBarLocalButton)
+    case localLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarLocalLabel)
+    case mealsButton(accessibility.AccessibilityIdOrderTakingMenuSideBarMealsButton)
+    case mealsLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarMealsLabel)
+    case merchButton(accessibility.AccessibilityIdOrderTakingMenuSideBarMerchButton)
+    case merchLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarMerchLabel)
+    case pickupButton(accessibility.AccessibilityIdOrderTakingMenuSideBarPickupButton)
+    case pickupLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarPickupLabel)
+    case saladsButton(accessibility.AccessibilityIdOrderTakingMenuSideBarSaladsButton)
+    case saladsLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarSaladsLabel)
+    case saucesButton(accessibility.AccessibilityIdOrderTakingMenuSideBarSaucesButton)
+    case saucesLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarSaucesLabel)
+    case sidesButton(accessibility.AccessibilityIdOrderTakingMenuSideBarSidesButton)
+    case sidesLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarSidesLabel)
+    case traysButton(accessibility.AccessibilityIdOrderTakingMenuSideBarTraysButton)
+    case traysLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarTraysLabel)
+    case treatsButton(accessibility.AccessibilityIdOrderTakingMenuSideBarTreatsButton)
+    case treatsLabel(accessibility.AccessibilityIdOrderTakingMenuSideBarTreatsLabel)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: accessibility.Skie.Accessibility.AccessibilityId.OrderTaking.MenuSideBar.__Sealed, b: accessibility.Skie.Accessibility.AccessibilityId.OrderTaking.MenuSideBar.__Sealed) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> accessibility.Skie.Accessibility.AccessibilityId.OrderTaking.MenuSideBar.__Sealed where __Sealed : accessibility.AccessibilityIdOrderTakingMenuSideBar
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> accessibility.Skie.Accessibility.AccessibilityId.OrderTaking.MenuSideBar.__Sealed? where __Sealed : accessibility.AccessibilityIdOrderTakingMenuSideBar
+extension accessibility.Skie.Accessibility.AccessibilityId.ReceiptContents {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case lineItem(accessibility.AccessibilityIdReceiptContentsLineItem)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: accessibility.Skie.Accessibility.AccessibilityId.ReceiptContents.__Sealed, b: accessibility.Skie.Accessibility.AccessibilityId.ReceiptContents.__Sealed) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> accessibility.Skie.Accessibility.AccessibilityId.ReceiptContents.__Sealed where __Sealed : accessibility.AccessibilityIdReceiptContents
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> accessibility.Skie.Accessibility.AccessibilityId.ReceiptContents.__Sealed? where __Sealed : accessibility.AccessibilityIdReceiptContents
+extension accessibility.Skie.Accessibility.AccessibilityId.ManagerPin {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case close(accessibility.AccessibilityIdManagerPinClose)
+    case contentSubtitle(accessibility.AccessibilityIdManagerPinContentSubtitle)
+    case contentTitle(accessibility.AccessibilityIdManagerPinContentTitle)
+    case errorMessage(accessibility.AccessibilityIdManagerPinErrorMessage)
+    case pinInput(accessibility.AccessibilityIdManagerPinPinInput)
+    case submit(accessibility.AccessibilityIdManagerPinSubmit)
+    case title(accessibility.AccessibilityIdManagerPinTitle)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: accessibility.Skie.Accessibility.AccessibilityId.ManagerPin.__Sealed, b: accessibility.Skie.Accessibility.AccessibilityId.ManagerPin.__Sealed) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> accessibility.Skie.Accessibility.AccessibilityId.ManagerPin.__Sealed where __Sealed : accessibility.AccessibilityIdManagerPin
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> accessibility.Skie.Accessibility.AccessibilityId.ManagerPin.__Sealed? where __Sealed : accessibility.AccessibilityIdManagerPin
+public func AuthPinPadEntrySignin() -> accessibility.AccessibilityIdAuthenticationPinPad
+extension accessibility.Skie.Accessibility.AccessibilityId.PaymentTaker.__Sealed : Swift.Sendable {}
+extension accessibility.Skie.Accessibility.AccessibilityId.GuestInfo.__Sealed : Swift.Sendable {}

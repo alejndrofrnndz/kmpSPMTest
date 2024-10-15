@@ -1,0 +1,26 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "kmpspmtest",
+          "kind" : "root",
+          "location" : "/Users/alejandrofernandez/Developer/kmpSPMTest",
+          "name" : "kmpSPMTest"
+        },
+        "path" : "/Users/alejandrofernandez/Developer/kmpSPMTest/.build/artifacts/kmpspmtest/Accessibility/accessibility.xcframework",
+        "source" : {
+          "checksum" : "b689c77c010ec4c28ba969921deb5713a7a144136ffd6d31620d8a34c1bd71b9",
+          "type" : "remote",
+          "url" : "https://github.com/alejndrofrnndz/kmpSPMTest/releases/download/0.0.1/accessibility.xcframework.zip"
+        },
+        "targetName" : "Accessibility"
+      }
+    ],
+    "dependencies" : [
+
+    ]
+  },
+  "version" : 6
+}
