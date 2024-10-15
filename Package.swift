@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-   name: "Accessibility",
+   name: "accessibility",
    platforms: [
      .iOS(.v14),
    ],
    products: [
-      .library(name: "Accessibility", targets: ["Accessibility"])
+      .library(name: "accessibility", targets: ["accessibility"])
    ],
    targets: [
       .binaryTarget(
