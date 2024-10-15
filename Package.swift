@@ -11,7 +11,7 @@ let package = Package(
    ],
    targets: [
       .binaryTarget(
-         name: "Accessibility",
+         name: "accessibility",
          url: "https://github.com/alejndrofrnndz/kmpSPMTest/releases/download/0.0.1/accessibility.xcframework.zip",
          checksum:"b689c77c010ec4c28ba969921deb5713a7a144136ffd6d31620d8a34c1bd71b9")
    ]
